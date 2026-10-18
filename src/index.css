@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* White, Yellow, Black Athletic Theme Tokens */
+.bg-prime-yellow {
+  background-color: #EAB308;
+}
+
+.text-prime-yellow {
+  color: #CA8A04;
+}
+
+.bg-prime-black {
+  background-color: #09090b;
+}
+
+.border-prime-yellow {
+  border-color: #EAB308;
+}
+
+/* Athletic Yellow-Gold Shimmer */
+.text-yellow-gradient {
+  background: linear-gradient(135deg, #000000 0%, #713F12 40%, #EAB308 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Clean minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #EAB308;
+}

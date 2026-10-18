@@ -1,0 +1,6 @@
+{
+  "name": "The Prime Nutrions",
+  "description": "Premium gym supplements & sports nutrition store by Pratham Chachra. 100% genuine whey, creatine, pre-workout, mass gainer with direct WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
