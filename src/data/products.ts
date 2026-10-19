@@ -1,6 +1,7 @@
 import { Product } from '../types';
 
 import wheyImg from '../assets/images/product_whey_gold_tub_1792314108089.jpg';
+import muscleblazeWheyImg from '../assets/images/muscleblaze-biozyme-whey.jpg';
 import creatineImg from '../assets/images/product_creatine_monohydrate_1792314109082.jpg';
 import preworkoutImg from '../assets/images/product_preworkout_tub_1792314109394.jpg';
 import massGainerImg from '../assets/images/product_mass_gainer_1792314130550.jpg';
@@ -91,94 +92,55 @@ export const SHOP_MENU_CATEGORIES: ShopMenuCategory[] = [
 
 export const PRODUCTS: Product[] = [
   // 1. WHEY & PROTEINS
-  {
-    id: 'tp-whey-isolate',
-    name: 'The Prime Gold 100% Whey Protein Isolate',
-    category: 'whey',
-    categoryLabel: 'Whey & Proteins',
-    subType: 'isolate',
-    subTypeLabel: 'Whey Isolate',
-    goal: 'muscle-building',
-    goalLabel: 'Lean Muscle & Definition',
-    tagline: 'Ultra-pure cold-filtered whey isolate with 27g pure protein per scoop.',
-    price: 4899,
-    mrp: 6499,
-    rating: 4.9,
-    reviewsCount: 184,
-    image: wheyImg,
-    sizes: ['2 kg (4.4 lbs)', '1 kg (2.2 lbs)'],
-    flavours: ['Double Rich Chocolate', 'Vanilla Bean', 'Cafe Mocha', 'Kulfi Delight'],
-    servings: 67,
-    proteinPerServing: '27g',
-    bcaaPerServing: '6.2g',
-    keyHighlights: [
-      '27g Cross-Flow Microfiltered Whey Protein Isolate',
-      '0g Added Sugar & Less than 1g Carbohydrates',
-      '6.2g Branched Chain Amino Acids (BCAA)',
-      'DigeZyme® digestive enzyme complex for zero bloating'
-    ],
-    description:
-      'The Prime Gold 100% Whey Protein Isolate is cold-filtered to preserve active immunoglobulins, ensuring fast absorption and pure muscle fuel without excess carbs.',
-    nutritionFacts: {
-      servingSize: '1 Scoop (30g)',
-      servingsPerTub: 67,
-      nutrients: [
-        { label: 'Energy', amount: '118 kcal' },
-        { label: 'Pure Protein', amount: '27.0 g', dailyValue: '54%' },
-        { label: 'Total Carbohydrates', amount: '0.8 g' },
-        { label: 'Dietary Fiber', amount: '0.2 g' },
-        { label: 'Total Fat', amount: '0.6 g' },
-        { label: 'BCAA', amount: '6.2 g' },
-        { label: 'Glutamic Acid', amount: '4.8 g' }
-      ]
-    },
-    howToUse: 'Mix 1 rounded scoop with 200-250ml cold water post-workout or in the morning.',
-    inStock: true,
-    featured: true
+  
+{
+  id: 'muscleblaze-biozyme-performance-whey',
+  name: 'MuscleBlaze Biozyme Performance Whey',
+  category: 'whey',
+  categoryLabel: 'Whey & Proteins',
+  subType: 'whey-protein',
+  subTypeLabel: 'Whey Protein',
+  goal: 'muscle-building',
+  goalLabel: 'Muscle Building',
+  tagline: '25g protein per serving to support your daily protein intake.',
+  price: 4199,
+  mrp: 4999,
+  rating: 0,
+  reviewsCount: 0,
+  image: muscleblazeWheyImg,
+  sizes: ['1 kg'],
+  flavours: ['Rich Chocolate'],
+  servings: 28,
+  proteinPerServing: '25g',
+  bcaaPerServing: '5.51g',
+  keyHighlights: [
+    '25g protein per 36g serving',
+    '5.51g BCAAs per serving',
+    'Contains whey protein concentrate',
+    'Contains milk; check the product label for allergens'
+  ],
+  description:
+    'MuscleBlaze Biozyme Performance Whey in Rich Chocolate flavour. Check the product packaging for the latest ingredients and nutrition information.',
+  nutritionFacts: {
+    servingSize: '36 g',
+    servingsPerTub: 28,
+    nutrients: [
+      { label: 'Energy', amount: '144.08 kcal' },
+      { label: 'Protein', amount: '25 g' },
+      { label: 'Total Carbohydrates', amount: '6.51 g' },
+      { label: 'Total Sugars', amount: '0.56 g' },
+      { label: 'Added Sugars', amount: '0 g' },
+      { label: 'Total Fat', amount: '2.24 g' },
+      { label: 'BCAAs', amount: '5.51 g' },
+      { label: 'EAAs', amount: '11.75 g' }
+    ]
   },
-  {
-    id: 'tp-pea-plant-protein',
-    name: 'ProTerra 100% Organic Pea & Plant Protein',
-    category: 'whey',
-    categoryLabel: 'Whey & Proteins',
-    subType: 'pea-protein',
-    subTypeLabel: 'Pea Protein',
-    goal: 'muscle-building',
-    goalLabel: 'Clean Vegan Protein',
-    tagline: 'Hypoallergenic yellow pea and brown rice isolate with full amino spectrum.',
-    price: 2699,
-    mrp: 3499,
-    rating: 4.85,
-    reviewsCount: 92,
-    image: plantImg,
-    sizes: ['1 kg (2.2 lbs)', '2 kg (4.4 lbs)'],
-    flavours: ['Vanilla Bean', 'Raw Chocolate', 'Almond Kulfi'],
-    servings: 33,
-    proteinPerServing: '24g',
-    bcaaPerServing: '4.8g',
-    keyHighlights: [
-      '24g Complete Plant Protein per scoop from organic yellow peas',
-      '100% Dairy-Free, Lactose-Free, Gluten-Free & Vegan certified',
-      'Naturally sweetened with stevia & fortified with Papain enzymes',
-      'Smooth blendability with rich milkshake consistency'
-    ],
-    description:
-      'Engineered for athletes seeking clean plant-based fuel. High bioavailability, easy on the stomach, with 0g dairy or lactose.',
-    nutritionFacts: {
-      servingSize: '1 Scoop (30g)',
-      servingsPerTub: 33,
-      nutrients: [
-        { label: 'Energy', amount: '114 kcal' },
-        { label: 'Plant Protein', amount: '24.0 g' },
-        { label: 'Total Carbs', amount: '1.2 g' },
-        { label: 'Dietary Fiber', amount: '2.0 g' },
-        { label: 'Total Fat', amount: '0.8 g' }
-      ]
-    },
-    howToUse: 'Blend 1 scoop with chilled almond milk or water post-training.',
-    inStock: true,
-    featured: true
-  },
+  howToUse:
+    'Follow the directions on the product label for serving size and preparation.',
+  inStock: false,
+  featured: true
+},
+
   {
     id: 'tp-yeast-protein-bio',
     name: 'BioYeast Advanced Fermented Yeast Protein',
