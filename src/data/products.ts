@@ -19,9 +19,9 @@ export const STORE_INFO = {
   phone: '6396601206',
   altPhone: '9897701206',
   whatsappNumber: '919897701206',
-  instagram: 'the_prime_nutrions',
-  instagramUrl: 'https://instagram.com/the_prime_nutrions',
-  email: 'theprimenutrions@gmail.com',
+  instagram: 'the_prime_nutritions',
+  instagramUrl: 'https://instagram.com/the_prime_nutritions',
+  email: 'theprimenutritions@gmail.com',
   tagline: '100% Authentic Gym Supplements by Pratham Chachra',
   deliveryThreshold: 999, // Free shipping above 999
   standardDeliveryFee: 80,
@@ -44,6 +44,7 @@ export const SHOP_MENU_CATEGORIES: ShopMenuCategory[] = [
     id: 'whey',
     label: 'Whey & Proteins',
     subItems: [
+      { id: 'whey-protein', label: 'Whey Protein' },
       { id: 'isolate', label: 'Whey Isolate' },
       { id: 'pea-protein', label: 'Pea Protein' },
       { id: 'yeast-protein', label: 'Yeast Protein' }
