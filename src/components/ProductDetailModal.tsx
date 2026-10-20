@@ -244,6 +244,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
             </div>
           </div>
 
+        
           {/* Official Nutrition Facts Panel */}
           <div className="border-t border-slate-200 pt-6">
             <div className="flex items-center justify-between mb-3">
@@ -251,25 +252,31 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 Official Supplement & Nutrition Facts
               </h3>
               <span className="text-xs text-slate-500 font-mono">
-                Serving Size: {product.nutritionFacts.servingSize}
+                Serving Size: {product.nutritionFacts?.servingSize || 'See product label'}
               </span>
             </div>
 
             <div className="border border-slate-300 rounded-xl overflow-hidden bg-white shadow-2xs">
               <div className="divide-y divide-slate-200 text-xs">
-                {product.nutritionFacts.nutrients.map((item, i) => (
-                  <div key={i} className="px-4 py-2.5 flex items-center justify-between hover:bg-slate-50">
-                    <span className="text-slate-800 font-medium">{item.label}</span>
-                    <div className="flex items-center gap-4">
-                      <span className="font-mono text-slate-900 font-bold tabular-nums">{item.amount}</span>
-                      {item.dailyValue && (
-                        <span className="font-mono text-slate-400 text-[11px] w-12 text-right">
-                          {item.dailyValue}
-                        </span>
-                      )}
+                {product.nutritionFacts?.nutrients?.length ? (
+                  product.nutritionFacts.nutrients.map((item, i) => (
+                    <div key={i} className="px-4 py-2.5 flex items-center justify-between hover:bg-slate-50">
+                      <span className="text-slate-800 font-medium">{item.label}</span>
+                      <div className="flex items-center gap-4">
+                        <span className="font-mono text-slate-900 font-bold tabular-nums">{item.amount}</span>
+                        {item.dailyValue && (
+                          <span className="font-mono text-slate-400 text-[11px] w-12 text-right">
+                            {item.dailyValue}
+                          </span>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))
+                ) : (
+                  <p className="px-4 py-3 text-slate-500">
+                    Nutrition facts are not available yet. Please check the product label for verified information.
+                  </p>
+                )}
               </div>
             </div>
           </div>
@@ -283,6 +290,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               {product.howToUse}
             </p>
           </div>
+
         </div>
       </div>
     </div>
