@@ -2,6 +2,7 @@ import { Product } from '../types';
 
 import wheyImg from '../assets/images/product_whey_gold_tub_1792314108089.jpg';
 import muscleblazeWheyImg from '../assets/images/muscleblaze-biozyme-whey.jpg';
+import asitisAtomWheyImg from '../assets/images/asitis_atom_whey.jpg';
 import creatineImg from '../assets/images/product_creatine_monohydrate_1792314109082.jpg';
 import preworkoutImg from '../assets/images/product_preworkout_tub_1792314109394.jpg';
 import massGainerImg from '../assets/images/product_mass_gainer_1792314130550.jpg';
