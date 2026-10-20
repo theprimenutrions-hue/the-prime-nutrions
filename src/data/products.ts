@@ -4,6 +4,7 @@ import wheyImg from '../assets/images/one_science_whey.jpg';
 import muscleblazeWheyImg from '../assets/images/mb_biozyme_whey.jpg';
 import asitisAtomWheyImg from '../assets/images/asitis_atom_whey.jpg';
 import gncProWheyImg from '../assets/images/gnc_pro_whey.jpg';
+import gxnArmourWheyImg from '../assets/images/gxn_armour_whey.jpg';
 import creatineImg from '../assets/images/mb_creatine.jpg';
 import preworkoutImg from '../assets/images/mb_preworkout.jpg';
 import massGainerImg from '../assets/images/mb_mass_gainer.jpg';
@@ -712,6 +713,35 @@ export const PRODUCTS: Product[] = [
   rating: 0,
   reviewsCount: 0,
   image: gncProWheyImg,
+  sizes: [],
+  flavours: [],
+  servings: 0,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
+{
+  id: 'gxn-armour-whey-anabolic',
+  name: 'GXN Armour Whey Anabolic Protein Fuel',
+  category: 'whey',
+  categoryLabel: 'Whey & Proteins',
+  subType: 'whey-protein',
+  subTypeLabel: 'Whey Protein',
+  goal: 'muscle-building',
+  goalLabel: 'Muscle Building',
+  tagline: 'Whey protein supplement.',
+  price: 500,
+  mrp: 0,
+  rating: 0,
+  reviewsCount: 50,
+  image: gxnArmourWheyImg,
   sizes: [],
   flavours: [],
   servings: 0,
