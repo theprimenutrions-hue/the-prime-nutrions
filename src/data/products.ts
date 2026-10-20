@@ -695,7 +695,36 @@ export const PRODUCTS: Product[] = [
     howToUse: 'Take 2 tablets daily after lunch or dinner.',
     inStock: true,
     featured: false
-  }
+  },
+{
+  id: 'gnc-pro-performance-whey',
+  name: 'GNC Pro Performance 100% Whey',
+  category: 'whey',
+  categoryLabel: 'Whey & Proteins',
+  subType: 'whey-protein',
+  subTypeLabel: 'Whey Protein',
+  goal: 'muscle-building',
+  goalLabel: 'Muscle Building',
+  tagline: 'Whey protein supplement.',
+  price: 0,
+  mrp: 0,
+  rating: 0,
+  reviewsCount: 0,
+  image: wheyImg,
+  sizes: [],
+  flavours: [],
+  servings: 0,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
 ];
 
 export const CATEGORIES = [
