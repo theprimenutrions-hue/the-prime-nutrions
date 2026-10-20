@@ -110,7 +110,7 @@ export const PRODUCTS: Product[] = [
   reviewsCount: 0,
   image: muscleblazeWheyImg,
   sizes: ['1 kg'],
-  flavours: ['Rich Chocolate'],
+  flavours: ['Rich Chocolate','Butter Cookie '],
   servings: 28,
   proteinPerServing: '25g',
   bcaaPerServing: '5.51g',
@@ -142,48 +142,36 @@ export const PRODUCTS: Product[] = [
   featured: true
 },
 
-  {
-    id: 'tp-yeast-protein-bio',
-    name: 'BioYeast Advanced Fermented Yeast Protein',
-    category: 'whey',
-    categoryLabel: 'Whey & Proteins',
-    subType: 'yeast-protein',
-    subTypeLabel: 'Yeast Protein',
-    goal: 'muscle-building',
-    goalLabel: 'Next-Gen Bioavailable Protein',
-    tagline: 'Fermentation-crafted pure microbial protein with 85% PDCAAS absorption score.',
-    price: 3299,
-    mrp: 4199,
-    rating: 4.88,
-    reviewsCount: 64,
-    image: wheyImg,
-    sizes: ['1 kg (2.2 lbs)'],
-    flavours: ['Belgian Chocolate', 'Vanilla Cream'],
-    servings: 32,
-    proteinPerServing: '26g',
-    bcaaPerServing: '5.6g',
-    keyHighlights: [
-      'Eco-fermented pure yeast protein with maximum intestinal tolerability',
-      'High leucine threshold triggering muscle hypertrophy',
-      'Rich in natural beta-glucans for enhanced immune resilience',
-      'Zero cholesterol and zero animal byproducts'
-    ],
-    description:
-      'The modern frontier of sports nutrition. Fermented yeast protein offers superior gut compatibility with animal-grade amino acid density.',
-    nutritionFacts: {
-      servingSize: '1 Scoop (31g)',
-      servingsPerTub: 32,
-      nutrients: [
-        { label: 'Energy', amount: '119 kcal' },
-        { label: 'Fermented Protein', amount: '26.0 g' },
-        { label: 'Beta-Glucans', amount: '1200 mg' },
-        { label: 'Carbs', amount: '0.9 g' }
-      ]
-    },
-    howToUse: 'Mix 1 scoop with 220ml cold water 30 minutes after strenuous workouts.',
-    inStock: true,
-    featured: false
-  },
+ 
+{
+  id: 'asitis-atom-pwr-whey-xl',
+  name: 'AS-IT-IS ATOM PWR Whey Protein XL',
+  category: 'whey',
+  categoryLabel: 'Whey & Proteins',
+  subType: 'whey-protein',
+  subTypeLabel: 'Whey Protein',
+  goal: 'muscle-building',
+  goalLabel: 'Muscle Building',
+  tagline: 'Whey protein supplement.',
+  price: 2400,
+  mrp: 2800,
+  rating: 30,
+  reviewsCount: 10,
+  image: asitisAtomWheyImg,
+  sizes: ['1 kg'],
+  flavours: ['Choclate'],
+  servings: 27,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
 
   // 2. GAINER OPTIONS (Bulk Gainer & Weight Gainer)
   {
