@@ -711,7 +711,7 @@ export const PRODUCTS: Product[] = [
   mrp: 0,
   rating: 0,
   reviewsCount: 0,
-  image: wheyImg,
+  image: gncProWheyImg,
   sizes: [],
   flavours: [],
   servings: 0,
