@@ -12,7 +12,7 @@ import carnitineImg from '../assets/images/mb_carnitine.jpg';
 import testoImg from '../assets/images/mb_testo.jpg';
 import bcaaImg from '../assets/images/bcaa_amino_tub_1792317868984.jpg';
 import fatBurnerImg from '../assets/images/fatburner_bottle_1792317884977.jpg';
-import multivitaminImg from '../assets/images/multivitamin_bottle_1792317886172.jpg';
+import multivitaminImg from '../assets/images/mb_vite.jpg';
 import jointFlexImg from '../assets/images/joint_flex_bottle_1792317885718.jpg';
 
 export const STORE_INFO = {
