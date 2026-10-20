@@ -1,11 +1,11 @@
 import { Product } from '../types';
 
-import wheyImg from '../assets/images/product_whey_gold_tub_1792314108089.jpg';
+import wheyImg from '../assets/images/one_science_whey.jpg';
 import muscleblazeWheyImg from '../assets/images/mb_biozyme_whey.jpg';
 import asitisAtomWheyImg from '../assets/images/asitis_atom_whey.jpg';
-import creatineImg from '../assets/images/product_creatine_monohydrate_1792314109082.jpg';
-import preworkoutImg from '../assets/images/product_preworkout_tub_1792314109394.jpg';
-import massGainerImg from '../assets/images/product_mass_gainer_1792314130550.jpg';
+import creatineImg from '../assets/images/mb_creatine.jpg';
+import preworkoutImg from '../assets/images/mb_preworkout.jpg';
+import massGainerImg from '../assets/images/mb_mass_gainer.jpg';
 import omegaImg from '../assets/images/product_fishoil_vitamins_1792314130961.jpg';
 import plantImg from '../assets/images/product_plant_protein_1792315863579.jpg';
 import carnitineImg from '../assets/images/product_carnitine_cla_1792315865359.jpg';
