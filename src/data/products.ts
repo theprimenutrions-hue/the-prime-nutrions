@@ -3,6 +3,7 @@ import { Product } from '../types';
 import wheyImg from '../assets/images/one_science_whey.jpg';
 import muscleblazeWheyImg from '../assets/images/mb_biozyme_whey.jpg';
 import asitisAtomWheyImg from '../assets/images/asitis_atom_whey.jpg';
+import gncProWheyImg from '../assets/images/gnc_pro_whey.jpg';
 import creatineImg from '../assets/images/mb_creatine.jpg';
 import preworkoutImg from '../assets/images/mb_preworkout.jpg';
 import massGainerImg from '../assets/images/mb_mass_gainer.jpg';
