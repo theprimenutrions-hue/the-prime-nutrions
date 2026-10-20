@@ -6,6 +6,11 @@ import asitisAtomWheyImg from '../assets/images/asitis_atom_whey.jpg';
 import gncProWheyImg from '../assets/images/gnc_pro_whey.jpg';
 import gxnArmourWheyImg from '../assets/images/gxn_armour_whey.jpg';
 import nutrabayPeaProteinImg from '../assets/images/nutrabay_pea_protein.jpg';
+import gncBulkGainerImg from '../assets/images/gnc_bulk_gainer_1792427121370.jpg';
+import kevinAnabolicMassImg from '../assets/images/kevin_anabolic_mass_1792427122230.jpg';
+import onSeriousMassImg from '../assets/images/on_serious_mass_1792427122673.jpg';
+import labradaMassGainerImg from '../assets/images/labrada_mass_gainer_1792427123236.jpg';
+import muscleGarageGainerImg from '../assets/images/muscle_garage_gainer_1792427122645.jpg';
 import creatineImg from '../assets/images/mb_creatine.jpg';
 import preworkoutImg from '../assets/images/mb_preworkout.jpg';
 import massGainerImg from '../assets/images/mb_mass_gainer.jpg';
@@ -772,6 +777,151 @@ export const PRODUCTS: Product[] = [
   rating: 4.0,
   reviewsCount: 0,
   image: nutrabayPeaProteinImg,
+  sizes: [],
+  flavours: [],
+  servings: 0,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
+{
+  id: 'gnc-pro-performance-bulk-1340',
+  name: 'GNC Pro Performance Bulk 1340 High-Calorie Mass Gainer',
+  category: 'mass-gainer',
+  categoryLabel: 'Mass Gainers',
+  subType: 'mass-gainer',
+  subTypeLabel: 'Mass Gainer',
+  goal: 'weight-gain',
+  goalLabel: 'Weight Gain',
+  tagline: 'Mass gainer supplement.',
+  price: 0,
+  mrp: 0,
+  rating: 0,
+  reviewsCount: 0,
+  image: gncBulkGainerImg,
+  sizes: [],
+  flavours: [],
+  servings: 0,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
+{
+  id: 'kevin-levrone-black-line-anabolic-mass',
+  name: 'Kevin Levrone Signature Series Black Line Anabolic Mass',
+  category: 'mass-gainer',
+  categoryLabel: 'Mass Gainers',
+  subType: 'mass-gainer',
+  subTypeLabel: 'Mass Gainer',
+  goal: 'weight-gain',
+  goalLabel: 'Weight Gain',
+  tagline: 'Mass gainer supplement.',
+  price: 0,
+  mrp: 0,
+  rating: 0,
+  reviewsCount: 0,
+  image: kevinAnabolicMassImg,
+  sizes: [],
+  flavours: [],
+  servings: 0,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
+{
+  id: 'on-serious-mass-weight-gainer',
+  name: 'Optimum Nutrition (ON) Serious Mass High Protein Weight Gainer',
+  category: 'mass-gainer',
+  categoryLabel: 'Mass Gainers',
+  subType: 'mass-gainer',
+  subTypeLabel: 'Mass Gainer',
+  goal: 'weight-gain',
+  goalLabel: 'Weight Gain',
+  tagline: 'Weight gainer supplement.',
+  price: 0,
+  mrp: 0,
+  rating: 0,
+  reviewsCount: 0,
+  image: onSeriousMassImg,
+  sizes: [],
+  flavours: [],
+  servings: 0,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
+{
+  id: 'labrada-muscle-mass-gainer',
+  name: 'Labrada Muscle Mass Gainer',
+  category: 'mass-gainer',
+  categoryLabel: 'Mass Gainers',
+  subType: 'mass-gainer',
+  subTypeLabel: 'Mass Gainer',
+  goal: 'weight-gain',
+  goalLabel: 'Weight Gain',
+  tagline: 'Mass gainer supplement.',
+  price: 0,
+  mrp: 0,
+  rating: 0,
+  reviewsCount: 0,
+  image: labradaMassGainerImg,
+  sizes: [],
+  flavours: [],
+  servings: 0,
+  proteinPerServing: '',
+  bcaaPerServing: '',
+  keyHighlights: [],
+  description:
+    'Product details and nutrition information will be added after checking the product packaging.',
+  howToUse:
+    'Follow the directions on the product label.',
+  inStock: false,
+  featured: false
+},
+
+{
+  id: 'muscle-garage-dna-anabolic-mass',
+  name: 'Muscle Garage Nutrition DNA Anabolic Mass Gainer',
+  category: 'mass-gainer',
+  categoryLabel: 'Mass Gainers',
+  subType: 'mass-gainer',
+  subTypeLabel: 'Mass Gainer',
+  goal: 'weight-gain',
+  goalLabel: 'Weight Gain',
+  tagline: 'Mass gainer supplement.',
+  price: 0,
+  mrp: 0,
+  rating: 0,
+  reviewsCount: 0,
+  image: muscleGarageGainerImg,
   sizes: [],
   flavours: [],
   servings: 0,
