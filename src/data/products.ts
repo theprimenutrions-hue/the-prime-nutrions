@@ -167,17 +167,25 @@ export const PRODUCTS: Product[] = [
   reviewsCount: 14,
   image: asitisAtomWheyImg,
   sizes: ['1 kg'],
-  flavours: ['Dark Choclate' , 'Choco Hazel fusion '],
-  servings: 27,
+  flavours: ['Dark Choclate' , 'Choco Hazel fusion ' , ' kesar kulfi', 'Cookies & Cream '],
+  servings: 28,
   proteinPerServing: '27g',
-  bcaaPerServing: '',
-  keyHighlights: [],
+  bcaaPerServing: '5.8g',
+  keyHighlights: [
+    '27g protein per 36g serving',
+    '5.8g BCAAs per serving',
+    'Contains whey protein concentrate',
+    'Contains milk; check the product label for allergens'
+  ],
   description:
     'Product details and nutrition information will be added after checking the product packaging.',
   howToUse:
-    'Follow the directions on the product label.',
-  inStock: false,
-  featured: false
+    'Add 1 heaped scoop (36g) in 250ml of chilled water.
+     'Mix until smooth.
+    ' Drink post‑workout when muscles are primed.
+   ' Use daily. Consistency builds strength, not shortcuts..',
+  inStock: true,
+  featured: true
 },
 
 
@@ -222,8 +230,8 @@ export const PRODUCTS: Product[] = [
       ]
     },
     howToUse: 'Consume 1-2 scoops daily blended with whole milk and peanut butter.',
-    inStock: true,
-    featured: true
+    inStock: false,
+    featured: false
   },
   {
     id: 'tp-weight-gainer-pro',
@@ -306,7 +314,7 @@ export const PRODUCTS: Product[] = [
     },
     howToUse: 'Mix 1 scoop with 250ml water 20 minutes before training.',
     inStock: true,
-    featured: true
+    featured: false
   },
   {
     id: 'tp-creatine-gold',
@@ -344,7 +352,7 @@ export const PRODUCTS: Product[] = [
     },
     howToUse: 'Take 1 scoop (3g) daily with your protein shake or fruit juice.',
     inStock: true,
-    featured: true
+    featured: false
   },
   {
     id: 'tp-bcaa-instant',
@@ -463,7 +471,7 @@ export const PRODUCTS: Product[] = [
     },
     howToUse: 'Take 1 tablespoon (15ml) directly on an empty stomach before morning cardio or gym.',
     inStock: true,
-    featured: true
+    featured: false
   },
   {
     id: 'tp-fat-burner-thermo',
@@ -583,7 +591,7 @@ export const PRODUCTS: Product[] = [
     },
     howToUse: 'Take 1 tablet daily with breakfast.',
     inStock: true,
-    featured: true
+    featured: false
   },
   {
     id: 'tp-fishoil-zenith',
@@ -622,7 +630,7 @@ export const PRODUCTS: Product[] = [
     },
     howToUse: 'Take 1-2 softgels daily with meals.',
     inStock: true,
-    featured: true
+    featured: false
   },
   {
     id: 'tp-testo-booster-forge',
@@ -662,7 +670,7 @@ export const PRODUCTS: Product[] = [
     },
     howToUse: 'Take 2 capsules at bedtime with lukewarm milk or water.',
     inStock: true,
-    featured: true
+    featured: false
   },
   {
     id: 'tp-joint-flex-health',
@@ -714,21 +722,28 @@ export const PRODUCTS: Product[] = [
   goal: 'muscle-building',
   goalLabel: 'Muscle Building',
   tagline: 'Whey protein supplement.',
-  price: 0,
-  mrp: 0,
-  rating: 0,
-  reviewsCount: 0,
+  price: 5000,
+  mrp: 6500,
+  rating: 4.0,
+  reviewsCount: 20,
   image: gncProWheyImg,
-  sizes: [],
-  flavours: [],
-  servings: 0,
-  proteinPerServing: '',
-  bcaaPerServing: '',
-  keyHighlights: [],
+  sizes: ['1.81 kg'],
+  flavours: ['Chocolate fudge', ' Cafe Mocha ' ],
+  servings: 51,
+  proteinPerServing: '24gm',
+  bcaaPerServing: '5.5gm',
+  keyHighlights: ['24g High-Quality Whey Protein - supports lean muscle growth'
+                  '5.7g BCAAs - helps reduce muscle fatigue and improve endurance'
+                  '12.3g EAAs - aids faster recovery and muscle repair '
+                  'Leucine-rich profile - supports muscle protein synthesis '
+                  'DigeZyme® Enzyme Blend - for easy digestion and reduced bloating '],
   description:
     'Product details and nutrition information will be added after checking the product packaging.',
-  howToUse:
-    'Follow the directions on the product label.',
+  howToUse:[
+  "Mix 1 scoop with 200–250 ml of water or milk.",
+  "Water: Light texture and convenient mixing.",
+  "Milk: Creamier texture and additional calories."
+],
   inStock: false,
   featured: false
 },
@@ -743,23 +758,22 @@ export const PRODUCTS: Product[] = [
   goal: 'muscle-building',
   goalLabel: 'Muscle Building',
   tagline: 'Whey protein supplement.',
-  price: 500,
-  mrp: 0,
-  rating: 0,
+  price: 4500,
+  mrp: 8000,
+  rating: 3.8,
   reviewsCount: 50,
   image: gxnArmourWheyImg,
-  sizes: [],
-  flavours: [],
-  servings: 0,
-  proteinPerServing: '',
-  bcaaPerServing: '',
+  sizes: [42],
+  flavours: ['Rose Milk' , 'Fruity Pebbles '],
+  servings: 43,
+  proteinPerServing: '24g',
+  EAACreatine: '3g',
   keyHighlights: [],
-  description:
-    'Product details and nutrition information will be added after checking the product packaging.',
+  description: "GXN Beast Whey is built for people who train hard and expect more from their daily nutrition. It combines whey protein and fermented yeast protein with added creatine and a digestive enzyme blend to support daily protein intake and an active lifestyle.\n\nWith 24 g protein and 9.5 g naturally occurring Essential Amino Acids (EAAs) per serving, the formulation also provides 3 g Creatine Monohydrate and a 420 mg Digestive Enzyme Blend containing Lactase and Papain.",
   howToUse:
-    'Follow the directions on the product label.',
+   'Mix 1 scoop, approximately 42 g, with 250–300 mL water or milk. Consume one serving per day. Do not exceed the recommended daily usage. .',
   inStock: false,
-  featured: false
+  featured: true
 },
 
 {
@@ -773,22 +787,22 @@ export const PRODUCTS: Product[] = [
   goalLabel: 'Muscle Building',
   tagline: 'Plant-based protein supplement.',
   price: 1500,
-  mrp: 0,
+  mrp: 1800,
   rating: 4.0,
-  reviewsCount: 0,
+  reviewsCount: 40,
   image: nutrabayPeaProteinImg,
-  sizes: [],
-  flavours: [],
-  servings: 0,
-  proteinPerServing: '',
-  bcaaPerServing: '',
+  sizes: [' 1kg'],
+  flavours: ['Cold Coffee ' , ' Rich Chocolate creme '],
+  servings: '40 g ',
+  proteinPerServing: ' 25 g ',
+  bcaaPerServing: ' 4.6 g ',
   keyHighlights: [],
   description:
     'Product details and nutrition information will be added after checking the product packaging.',
   howToUse:
     'Follow the directions on the product label.',
-  inStock: false,
-  featured: false
+  inStock: true,
+  featured: true
 },
 
 {
@@ -801,15 +815,15 @@ export const PRODUCTS: Product[] = [
   goal: 'weight-gain',
   goalLabel: 'Weight Gain',
   tagline: 'Mass gainer supplement.',
-  price: 0,
-  mrp: 0,
-  rating: 0,
-  reviewsCount: 0,
+  price: 2500,
+  mrp: 2650,
+  rating: 4.0,
+  reviewsCount: 40,
   image: gncBulkGainerImg,
-  sizes: [],
-  flavours: [],
-  servings: 0,
-  proteinPerServing: '',
+  sizes: ['3 kg'],
+  flavours: [' Double Chocolate '],
+  servings: 6,
+  proteinPerServing: '50 g',
   bcaaPerServing: '',
   keyHighlights: [],
   description:
