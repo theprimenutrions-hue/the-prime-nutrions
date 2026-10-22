@@ -730,20 +730,19 @@ howToUse:
   servings: 51,
   proteinPerServing: '24gm',
   bcaaPerServing: '5.5gm',
-  keyHighlights: ['24g High-Quality Whey Protein - supports lean muscle growth'
-                  '5.7g BCAAs - helps reduce muscle fatigue and improve endurance'
-                  '12.3g EAAs - aids faster recovery and muscle repair '
-                  'Leucine-rich profile - supports muscle protein synthesis '
-                  'DigeZyme® Enzyme Blend - for easy digestion and reduced bloating '],
+  keyHighlights: [
+    '24g High-Quality Whey Protein - supports daily protein intake',
+    '5.7g BCAAs - check the product label for exact nutrition details',
+    '12.3g EAAs - check the product label for exact nutrition details',
+    'Leucine-rich profile - check the product label for exact details',
+    'DigeZyme® Enzyme Blend - verify ingredients on the packaging'
+  ],
   description:
-    'Product details and nutrition information will be added after checking the product packaging.',
-  howToUse:[
-  "Mix 1 scoop with 200–250 ml of water or milk.",
-  "Water: Light texture and convenient mixing.",
-  "Milk: Creamier texture and additional calories."
-],
+    'Check the original product packaging for verified ingredients and nutrition information.',
+  howToUse:
+    'Mix one serving with water or milk according to the directions on the product label.',
   inStock: false,
-  featured: false
+  featured: true
 },
 
 {
