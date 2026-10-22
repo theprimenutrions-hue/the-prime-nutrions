@@ -181,6 +181,7 @@ export const PRODUCTS: Product[] = [
     'Product details and nutrition information will be added after checking the product packaging.',
 howToUse:
   'Add 1 heaped scoop (36 g) to 250 ml of chilled water. Mix until smooth. Follow the product label for serving and timing instructions.',
+
   inStock: true,
   featured: true
 },
